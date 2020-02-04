@@ -17,7 +17,7 @@
                         .projects__url__demo 
                             a(:href="project.gh_pages_url" target="blank") DEMO
                         .projects__url__code 
-                            a(:href="project.gh_pages_url" target="blank") Code
+                            a(:href="project.code_url" target="blank") Code
                     
 
 
@@ -43,7 +43,7 @@ export default {
                     "describe" : "Movie playlist with top movies in 2019, using api request, created on vue-cli ",
                     "technology" : "vue.js, API",
                     "code_url" : "https://github.com/aniaska4/Playlist",
-                    "gh_pages_url" : "https://github.com/aniaska4/Playlist"
+                    "gh_pages_url" : "https://aniaska4.github.io/Playlist/"
                 
                 },
                 {
