@@ -3,6 +3,8 @@
         .container
             .about_box__title
                 h1 About me
+            .about_box_picture
+                img(src="images/me.jpg")
             .about_box__description
                 p I am beginner Front-End Developer, seeking work in developing in an interesting company.
                             |I am strongly motivated and interested in challenges offered by the area of programming.
@@ -24,13 +26,16 @@ export default {
 .about_box 
     display: flex;
     justify-content: center;
-    align-items: center
-    height: 600px;
+    align-items: center;
 
 .about_box__title
     padding-bottom: 30px;
     h1 
-        font-size: 40px;    
+        font-size: 40px;  
+         
+.about_box_picture
+    img
+        width: 65%;
 
 .about_box__description
     padding-top: 30px;

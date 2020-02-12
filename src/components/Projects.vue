@@ -104,6 +104,8 @@ export default {
         width: 50%;
         border: 3px solid black;
         height: 150px;
+    img:hoover
+        width: 60%
 
 .project_box__projects__describe
     text-align: left
